@@ -10,7 +10,7 @@ public class BaseTest implements Constant {
 @BeforeMethod
 public void openapp(String url)
 {
-	System.setProperty(GECKO_KEY,GECKO_VALUE);
+	//System.setProperty(GECKO_KEY,GECKO_VALUE);
 	 driver=new FirefoxDriver();
 	driver.get(url);
 }

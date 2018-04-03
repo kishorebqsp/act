@@ -21,7 +21,7 @@ public class Excel implements Constant{
 		 s = wb.getSheet(sheet).getRow(row).getCell(cell).getStringCellValue();
 		}
 		
-		catch(Exception e)
+		catch(Exception a)
 		{
 			
 		}
